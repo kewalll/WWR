@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide Scrollbar for all browsers */
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
